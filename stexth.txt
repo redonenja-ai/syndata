@@ -1,0 +1,32 @@
+
+Built **SynData Studio** — a single-file app for generating synthetic AI training data that you can sell.
+
+📄 **File:** `/root/.openclaw/workspace/syndata-studio.html`
+
+### What it does
+
+**8 data generators**, each producing market-ready training datasets:
+
+| Generator | What it produces | Who buys it |
+|---|---|---|
+| 💬 Q&A Pairs | Question-answer training data for LLM fine-tuning | Defined.ai, Scale AI |
+| 🏷️ Classifications | Labeled text for sentiment/intent classifiers | ML teams, NLP startups |
+| ⭐ Product Reviews | Annotated reviews with sentiment & ratings | E-commerce, recommender systems |
+| 📝 Summarization Pairs | Article → summary training pairs | News orgs, research labs |
+| 🗣️ Conversations | Multi-turn dialogue for chatbot training | Chatbot builders, customer service |
+| 🔍 Named Entities | NER-labeled text (PER, ORG, DATE, etc.) | Information extraction teams |
+| 💻 Code Generation | Natural language → code pairs | Code LLM trainers (premium!) |
+| 📋 Instruction Tuning | Alpaca-style instruction/input/output triplets | Everyone fine-tuning models |
+
+### Monetization built in
+
+- **Export formats:** JSON, JSONL, CSV, TSV — JSONL is the gold standard for fine-tuning
+- **Marketplace guide** (sidebar → "Where to Sell") with platforms, pricing ranges, and pro tips
+- **Quality scoring** on every generated dataset
+- **Batch generation** — stack multiple datasets and export all at once
+
+### How to use it
+
+Open the HTML file in any browser. Pick a data type, configure domain/count/format, hit **Generate**, then **Export**. Take the files to Defined.ai, Kaggle, Datarade, or HuggingFace to sell.
+
+The most profitable path: pick **niche domains** (medical, legal, finance, non-English) — those datasets command 3-5x premium on marketplaces.

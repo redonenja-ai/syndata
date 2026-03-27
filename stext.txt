@@ -1,0 +1,17 @@
+cd /home/darryl/ddata/cd2
+streamlit run syndata_studio.py
+```
+
+Same 8 generators as the HTML version:
+- **Q&A Pairs** — LLM fine-tuning data
+- **Classifications** — labeled text for sentiment/intent
+- **Reviews** — annotated product reviews with sentiment
+- **Summaries** — article → summary pairs
+- **Conversations** — multi-turn dialogue
+- **NER Entities** — named entity recognition labels
+- **Code Generation** — prompt → code pairs
+- **Instruction Tuning** — Alpaca-style triplets
+
+Plus the **marketplace guide** in the sidebar showing where to sell (Defined.ai, Kaggle, Datarade, Scale AI, HuggingFace, Bright Data).
+
+Export to JSON, JSONL, CSV, or TSV. Session tracks all generated datasets with history and combined export.
